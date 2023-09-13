@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="452.0" prefWidth="577.0" style="-fx-background-radius: 25; -fx-background-color: #740815;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.outstandingfiguresofukraine.ui.ElementController">
+   <children>
+      <VBox fx:id="addBox" />
+      <ImageView fx:id="imgHuman" fitHeight="158.0" fitWidth="226.0" layoutX="226.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/Taras_Shevchenko_selfportrait_oil_1840.jpg" />
+         </image>
+      </ImageView>
+      <ScrollPane layoutX="46.0" layoutY="256.0" prefHeight="166.0" prefWidth="503.0">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="174.0" prefWidth="490.0">
+               <children>
+                  <Label fx:id="lblContent" alignment="TOP_LEFT" prefHeight="180.0" prefWidth="486.0" text="Тара́с Григо́рович Шевче́нко (25 лютого (9 березня) 1814, с. Моринці, Київська губернія, Російська імперія (нині Звенигородський район, Черкаська область, Україна) — 26 лютого (10 березня) 1861, Санкт-Петербург, Російська імперія) — український поет, прозаїк, мислитель, живописець, гравер, етнограф, громадський діяч. Національний герой і символ України. Діяч українського національного руху, член Кирило-Мефодіївського братства. Академік Імператорської академії мистецтв (1860).Літературна спадщина Шевченка, центральну роль у якій відіграє поезія, зокрема збірка «Кобзар», вважається основою сучасної української літератури та багато в чому літературної української мови." textAlignment="JUSTIFY" wrapText="true" />
+               </children>
+            </AnchorPane>
+        </content>
+      </ScrollPane>
+      <HBox alignment="CENTER" layoutY="193.0" prefHeight="53.0" prefWidth="577.0">
+         <children>
+            <VBox alignment="CENTER">
+               <children>
+                  <Label fx:id="lblName" text="Тарас Григорович Шевченко" textFill="WHITE">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lblDate" text="25 лютого 1814 р." textFill="WHITE">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
